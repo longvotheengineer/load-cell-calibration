@@ -1,0 +1,63 @@
+# =======================================================
+# KEIL uVISION / MDK-ARM (Firmware)
+# =======================================================
+# Legacy build files
+*.o
+*.d
+*.crf
+*.map
+*.htm
+*.dep
+*.lnp
+*.axf
+*.sct
+*.lst
+*.iex
+*.adm
+*.hex
+*.bin
+
+# Keil 5 Specific Output Folders
+# These folders are auto-generated during build
+Objects/
+Listings/
+DebugConfig/
+RTE/
+
+# J-Link & Debugger Logs
+JLinkLog.txt
+*.bak
+*.uvguix.*
+*.uvgui.*
+*.uvoptx
+
+# =======================================================
+# VISUAL STUDIO (GUI Software)
+# =======================================================
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User-specific settings (Do not share these)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio temporary files
+.vs/
+.vscode/
+
+# =======================================================
+# STM32 CUBE MX
+# =======================================================
+.mxproject
+# Keep the drivers if you modified them, otherwise, you can ignore standard drivers:
+# Drivers/STM32F1xx_HAL_Driver/
+
+# =======================================================
+# OPERATING SYSTEM FILES
+# =======================================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
